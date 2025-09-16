@@ -113,10 +113,6 @@ If you use this code or findings in your research, please cite the authors:
 *   **Arina M. Tarasova** - tarasova.am@dvfu.ru
 *   **Scientific Supervisor: Aleksandr Yu. Filatov** - filatov.aiu@dvfu.ru
 
-## 📚 References
-
-1.  AO "ATS" Official Website. [https://www.atsenergo.ru/](https://www.atsenergo.ru/) (Accessed: 18.11.2024)
-
 ## ⚠️ Disclaimer
 
 The regional datasets (`*.csv` files) are not included in this repository due to potential licensing and privacy restrictions. 
