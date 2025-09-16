@@ -1,4 +1,4 @@
-# RUSSSIAN_ELECTRICITY_MARKET_ANALYSIS
+# Analysis of Electricity Consumption Across Russian Regions
 
 
 Authors: Dmitrii A. Maliuzhantsev, Arina M. Tarasova, Anna K. Andaralova, Polina S. Belokorovii, Dariana A. Salchak
