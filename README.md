@@ -46,7 +46,7 @@ The regression models achieved high accuracy across all regions, as measured by 
 
 ## 🛠️ Technology Stack
 
-*   **Programming Language:** Python
+*   **Programming Languages:** Python, R
 *   **Key Libraries:** `shap` (for analysis), `scikit-learn` (for model building), `pandas`, `numpy`, `matplotlib`
 *   **Visualization Dashboard:** Yandex DataLens
 
