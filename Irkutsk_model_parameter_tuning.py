@@ -1,9 +1,7 @@
 # -------------------------------------------------------------------
 # PROJECT: Анализ потребления электроэнергии в регионах России
 # -------------------------------------------------------------------
-# Copyright [2024] [Dmitrii A. Maliuzhantsev, Arina M. Tarasova,
-#                   Anna K. Andaralova, Polina S. Belokorovii,
-#                   Dariana A. Salchak, Aleksandr Yu. Filatov]
+# Copyright 2024 Dmitrii A. Maliuzhantsev
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -96,4 +94,5 @@ print("Best Cross-Validated MSE Score:", best_score)
 # Optional: Fit the best model on full data for future predictions
 best_model = grid_search.best_estimator_
 best_model.fit(X, y)
+
 
