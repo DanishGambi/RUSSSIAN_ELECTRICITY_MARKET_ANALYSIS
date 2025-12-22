@@ -17,7 +17,7 @@ The project employs machine learning regression models to predict consumption an
 
 ## 🌟 Primary Results: SHAP Analysis Visualizations
 
-The **core analytical output** of this project is a comprehensive set of **42 SHAP plots** across four regions, providing deep insights into feature importance and model interpretability. These visualizations are stored in the `visuals/` directory and represent the key findings of our research.
+The **core analytical output** of this project is a comprehensive set of **168 SHAP plots** across four regions, providing deep insights into feature importance and model interpretability. These visualizations are stored in the `visuals/` directory and represent the key findings of our research.
 
 ### 📁 Visualization Structure
 ```
