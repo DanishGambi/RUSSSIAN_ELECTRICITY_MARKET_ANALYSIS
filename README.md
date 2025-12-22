@@ -23,19 +23,17 @@ The **core analytical output** of this project is a comprehensive set of **42 SH
 ```
 visuals/
 ├── Moscow/
-│ ├── summary_plot_moscow.png
-│ ├── bar_plot_moscow.png
-│ └── dependence_plots/
-│ ├── dependence_plot_feature1_moscow.png
-│ ├── dependence_plot_feature2_moscow.png
-│ └── ... (10+ dependence plots)
+│ ├── shap_summary_plot.png
+│ ├── shap_summary_bar_plot.png
+│ ├── dependence_plot_feature_0.png
+│ ├── dependence_plot_feature_1.png
+│ └── ... (+38 dependence plots)
 ├── Irkutsk/
-│ ├── summary_plot_irkutsk.png
-│ ├── bar_plot_irkutsk.png
-│ └── dependence_plots/
-│ ├── dependence_plot_feature1_irkutsk.png
-│ ├── dependence_plot_feature2_irkutsk.png
-│ └── ... (10+ dependence plots)
+│ ├── shap_summary_plot.png
+│ ├── shap_summary_bar_plot.png
+│ ├── dependence_plot_feature_0.png
+│ ├── dependence_plot_feature_1.png
+│ └── ... (+38 dependence plots)
 ├── Chelyabinsk/
 │ └── ... (same structure)
 └── Tatarstan/
@@ -58,7 +56,7 @@ For **each region**, we provide three types of SHAP visualizations:
    - Quantitative measure of feature impact
 
 3. **Dependence Plots (`dependence_plot_<feature>_<region>.png`)**
-   - **10+ plots per region** showing individual feature effects
+   - **40 plots per region** showing individual feature effects
    - Reveals how predictions change with feature values
    - Shows interactions between features
    - Key features analyzed include:
