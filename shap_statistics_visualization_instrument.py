@@ -1,9 +1,7 @@
 # -------------------------------------------------------------------
 # PROJECT: Анализ потребления электроэнергии в регионах России
 # -------------------------------------------------------------------
-# Copyright [2024] [Dmitrii A. Maliuzhantsev, Arina M. Tarasova,
-#                   Anna K. Andaralova, Polina S. Belokorovii,
-#                   Dariana A. Salchak, Aleksandr Yu. Filatov]
+# Copyright 2024 Dmitrii A. Maliuzhantsev
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -78,3 +76,4 @@ print(X.shape)
 for num in range (0, 40):
 
     Dependence_plot(shap_values, X, num)
+
