@@ -1,9 +1,7 @@
 # -------------------------------------------------------------------
 # PROJECT: Анализ потребления электроэнергии в регионах России
 # -------------------------------------------------------------------
-# Copyright [2024] [Dmitrii A. Maliuzhantsev, Arina M. Tarasova,
-#                   Anna K. Andaralova, Polina S. Belokorovii,
-#                   Dariana A. Salchak, Aleksandr Yu. Filatov]
+# Copyright 2024 Dmitrii A. Maliuzhantsev
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -163,4 +161,5 @@ X = output [1]
 to_save_or_not_to_save = int(input("Do you want to save the shap statistics for visualization? \n 1 - yes, other - no:\n"))
 if to_save_or_not_to_save == 1:
     Save_shap_values_and_X(shap_values, X)
+
 
